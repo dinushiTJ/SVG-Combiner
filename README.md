@@ -1,40 +1,63 @@
-# SVG Combiner Tool
+# SVG Combiner Tool# SVG Combiner Tool
+## Overview
 
-A simple web tool that combines two SVG files side by side.
-
-## What it does
-
-- Takes two SVG files and puts them next to each other
-- Lets you adjust the space between them
-- Exports the result as SVG or PNG
-
-## How to use
-
-1. **Upload your SVGs**: Click the upload areas or drag files in
-2. **Adjust spacing**: Use the slider to change gap between images
-3. **Download**: Click "Download SVG" or "Download PNG"
-
-## Requirements
-
-- Any modern web browser
-- SVG files (or SVG code to paste)
-
-## Installation
-
-Just open the HTML file in your browser. No setup needed.
+A lightweight, browser-based tool for combining two SVG files horizontally. Perfect for creating before/after comparisons, side-by-side graphics, or merging SVG illustrations.
 
 ## Features
 
-- Drag and drop files
-- Live preview
-- Copy SVG code to clipboard
-- Works on mobile and desktop
-- No internet connection required
+- ✨ **No installation required** - just open and use
+- 📁 **Multiple input methods** - upload files, drag & drop, or paste SVG code
+- 🎛️ **Adjustable spacing** - control the gap between SVGs
+- 👀 **Live preview** - see results instantly
+- 💾 **Multiple export formats** - SVG, PNG, or copy to clipboard
+- 📱 **Mobile friendly** - works on all devices
+- 🌐 **Works offline** - no internet connection needed
 
-## Common issues
+## Quick Start
 
-- **"Invalid SVG" error**: Make sure your file is actually an SVG
-- **Nothing shows up**: Check that both SVG files are loaded
-- **Download doesn't work**: Allow downloads in your browser
+1. Download `svg-combiner.html`
+2. Open it in any web browser
+3. Upload or paste your two SVG files
+4. Adjust spacing with the slider
+5. Download your combined SVG
 
-That's it! Simple tool for a simple job.
+## Usage
+
+```
+Left SVG + Right SVG → Combined SVG
+    🖼️  +    🖼️    →      🖼️🖼️
+```
+
+1. **Load SVGs**: Upload files or paste SVG code
+2. **Adjust**: Use spacing slider (0-100px)
+3. **Export**: Download as SVG/PNG or copy code
+
+## Browser Support
+
+Works in all modern browsers:
+- Chrome, Firefox, Safari, Edge
+- Mobile browsers supported
+
+## File Structure
+
+```
+svg-combiner.html     # Single file - everything included
+├── HTML structure
+├── CSS styling  
+└── JavaScript logic
+```
+
+## Contributing
+
+1. Fork the repo
+2. Make your changes to `svg-combiner.html`
+3. Test with various SVG files
+4. Submit a pull request
+
+## License
+
+MIT License - use freely for any purpose.
+
+---
+
+**Tags:** `svg` `tool` `graphics` `web-app` `no-dependencies` `offline` `single-file`
