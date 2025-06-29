@@ -1,4 +1,5 @@
-# SVG Combiner Tool# SVG Combiner Tool
+# SVG Combiner Tool
+
 ## Overview
 
 A lightweight, browser-based tool for combining two SVG files horizontally. Perfect for creating before/after comparisons, side-by-side graphics, or merging SVG illustrations.
